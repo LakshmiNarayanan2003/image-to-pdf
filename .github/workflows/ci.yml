@@ -22,7 +22,7 @@ jobs:
       - run: npm run check
       - run: npm audit --audit-level=moderate
       - name: Cache Playwright browsers
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/ms-playwright
           key: browsers-${{ runner.os }}-${{ hashFiles('package-lock.json') }}

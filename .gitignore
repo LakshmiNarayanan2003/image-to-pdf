@@ -1,0 +1,8 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+*.tsbuildinfo
+public/licenses/
+.env*
+.DS_Store

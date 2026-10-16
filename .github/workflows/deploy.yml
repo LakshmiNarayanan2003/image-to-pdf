@@ -1,0 +1,40 @@
+name: Deploy GitHub Pages
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  quality:
+    if: github.ref == 'refs/heads/master'
+    uses: ./.github/workflows/ci.yml
+    permissions:
+      contents: read
+  deploy:
+    if: github.ref == 'refs/heads/master'
+    needs: quality
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: verified-site
+          path: dist
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy verified bundle
+        id: deployment
+        uses: actions/deploy-pages@v4

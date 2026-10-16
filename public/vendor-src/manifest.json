@@ -1,0 +1,26 @@
+[
+  {
+    "name": "libheif-1.23.5",
+    "commit": "413e2a87e6a70b3eccc3a3adc5801179dd2d9e00",
+    "file": "libheif-1.23.5.tar.gz",
+    "sha256": "efa4d641918ba2a412dbb57a63a33a81c8868f7a254c47ce9153dc6a197c72e7"
+  },
+  {
+    "name": "libde265-1.0.15",
+    "commit": "17bb8d9fcea62db8cdeb0fc7ef8d15dbd19a22e4",
+    "file": "libde265-1.0.15.tar.gz",
+    "sha256": "95382d1d19ee1232082c8ec5d3ee0a83116347739c9b1d0e0e9c7cc707f33ab5"
+  },
+  {
+    "name": "libheif-emscripten-v1.23.5",
+    "commit": "5c8968a44e9c68ae677e24790d77d001ed7fe7cc",
+    "file": "libheif-emscripten-v1.23.5.tar.gz",
+    "sha256": "49da628a17aad88b78d0e8f9ba6b484ff64f339da6a08b28c71255035f5ca393"
+  },
+  {
+    "name": "libheif-js-1.23.5",
+    "commit": "d8ec4bc3bc5bf8055975577bccbbc7e1d7313c2d",
+    "file": "libheif-js-1.23.5.tar.gz",
+    "sha256": "709b88ca75a2a6d5a29bef42256c3cdb78d0481b6c020f0115c925be6c8a23b9"
+  }
+]

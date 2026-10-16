@@ -1,0 +1,25 @@
+name: Bug report
+description: Report a reproducible problem using synthetic images.
+body:
+  - type: markdown
+    attributes:
+      value: Do not attach private images or sensitive metadata. Use SECURITY.md for security reports.
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include layout settings and a minimal generated image if possible.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser, version and operating system
+    validations:
+      required: true

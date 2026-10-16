@@ -1,0 +1,57 @@
+{
+  "release": "0.1.0",
+  "date": "2026-10-16",
+  "node": "v24.19.0",
+  "unit": {
+    "passed": 93,
+    "failed": 0,
+    "skipped": 0,
+    "files": 4
+  },
+  "playwright": {
+    "version": "1.64.1",
+    "stats": {
+      "startTime": "2026-10-16T14:30:47.891Z",
+      "duration": 119620.814,
+      "expected": 108,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "projects": {
+      "chromium": {
+        "passed": 36,
+        "failed": 0,
+        "skipped": 0,
+        "flaky": 0
+      },
+      "firefox": {
+        "passed": 36,
+        "failed": 0,
+        "skipped": 0,
+        "flaky": 0
+      },
+      "webkit": {
+        "passed": 36,
+        "failed": 0,
+        "skipped": 0,
+        "flaky": 0
+      }
+    }
+  },
+  "audit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "alternateBaseSmoke": {
+    "base": "/pix2pdf/",
+    "browser": "chromium",
+    "passed": 1
+  },
+  "fixtureRegeneration": "SHA-256 identical before and after regeneration",
+  "screenshots": 7
+}

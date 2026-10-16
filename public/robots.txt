@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lakshminarayanan2003.github.io/image-to-pdf/sitemap.xml

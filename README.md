@@ -1,5 +1,7 @@
 # Pix2PDF
 
+[![CI](https://github.com/LakshmiNarayanan2003/image-to-pdf/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/LakshmiNarayanan2003/image-to-pdf/actions/workflows/ci.yml)
+
 **Turn images into PDFs. Keep them private.**
 
 A free, open-source image-to-PDF converter that runs entirely in your browser. Combine JPG, PNG, WebP, HEIC, TIFF and other supported formats into one PDF without uploading your images.

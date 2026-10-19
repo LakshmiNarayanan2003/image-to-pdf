@@ -29,14 +29,14 @@ jobs:
       - run: npx playwright install --with-deps chromium firefox webkit
       - run: npm run test:e2e
       - name: Upload verified site
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: verified-site
           path: dist
           retention-days: 3
       - name: Preserve test evidence
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: test-evidence
           path: |
